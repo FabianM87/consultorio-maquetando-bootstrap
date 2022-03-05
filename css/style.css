@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro';
+	
+}
+header {
+	background-image: linear-gradient(#4d4d4d,#808080,#b3b3b3,#e6e6e6);
+	font-size: large;
+	animation: header 10s linear infinite alternate both;
+	animation: header 10s linear infinite alternate both;
+
+
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C8;
+
+}
+a:hover {
+	color: #4d4d4d;
+}
+li {
+	list-style: none;
+	margin: 10px;
+}    
+body{
+	text-align: center;
+}
+footer {
+	background-image: linear-gradient(#e6e6e6,#b3b3b3,#808080,#4d4d4d);
+	padding-top: 5px;
+	font-size: large;
+	
+}
+
+.main-principal{
+	background-image: url(https://media.istockphoto.com/photos/in-the-hospital-closeup-shot-of-the-doctor-does-ultrasound-sonogram-picture-id996271208?b=1&k=20&m=996271208&s=170667a&w=0&h=B68a46sXGIXJ8HalP3s6MOjJbuLSrLbbTu0NPI3J9po=); 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   padding-top: 250px;
+   padding-bottom: 5px;
+   margin-top: 25px;
+   margin-bottom: 25px;	
+    width: 100%;	
+}
+@keyframes header {
+  0% {
+    background: #808080;
+  }
+  100% {
+    background: #e6e6e6;
+  }
+}
+@keyframes header {
+  0% {
+    background: #e6e6e6;
+  }
+  100% {
+    background: #808080;
+  }
+}
+.imagenes{ 
+	
+	background-image: url(https://media.istockphoto.com/photos/surgeon-and-anesthetist-doctor-er-surgical-team-with-medical-clinic-picture-id1072286960?k=20&m=1072286960&s=612x612&w=0&h=xy2hzymNd3UGCEPjKjY9pkBKA_2R_po1nhfC-e-KC60=);
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+    background-position: right;
+    
+}
