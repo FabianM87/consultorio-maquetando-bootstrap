@@ -80,6 +80,13 @@ footer {
   background-size: 100% 100%;
   text-align: -webkit-right
 }
+.resultados{
+	background-image: url(https://media.istockphoto.com/photos/accessible-information-is-crucial-for-current-medical-research-picture-id1287845968?b=1&k=20&m=1287845968&s=170667a&w=0&h=B3ucd3Y_G2SqLgz1wjKtEUY6brC0gRAx1bQUypz8nmc=) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: right;
+	padding: 150px;
+}
 
 
 
