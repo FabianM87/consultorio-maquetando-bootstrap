@@ -68,7 +68,7 @@ footer {
 .imagenes{ 
 	
 	background-image: url(https://media.istockphoto.com/photos/surgeon-and-anesthetist-doctor-er-surgical-team-with-medical-clinic-picture-id1072286960?k=20&m=1072286960&s=612x612&w=0&h=xy2hzymNd3UGCEPjKjY9pkBKA_2R_po1nhfC-e-KC60=);
-	background-repeat: no-repeat;
+		background-repeat: no-repeat;
   	background-size: 100% 100%;
     background-position: right;
 
@@ -88,22 +88,54 @@ footer {
 	padding: 150px;
 }
 
+.parrafo-principal {
+	color: black;
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+}
 
 
 
-
-
+.imgstaff{
+	margin: 25px;
+}
 
 
 /* DESKTOP*/
 @media (max-width: 1200px) { 
+	/*uso bg solo para guiarme en los tamaños despues se quitan*/
 body {
 	background-color: red;
 } 
+.titulo__principal{
+	color: #0e5487;
+	font-size: 50px;
+	text-shadow: 2px 1px #072e4a;
+	
+	
+}
+.subtitulo-index {
+	font-size: 40px;
+	color: #0e5487;
+	text-shadow: 2px 1px #072e4a;
+}
+.texto-imagenes{
+	font-size: 28px;
+}
+.staff{ 
+   color: #0e5487;
+	 font-size: 50px;
+	 text-shadow: 2px 1px #072e4a;
+	 
+	justify-content: center;
+	;
+}
     
 }
 /*medium*/
 @media (max-width: 992px) { 
+	/*uso bg solo para guiarme en los tamaños despues se quitan*/
 body{
 	background-color: yellow;
 	
@@ -111,9 +143,33 @@ body{
 .video{
 	width: 50%;
 } 
+.titulo__principal{
+	color: #0e5487;
+	font-size: 45px;
+	text-shadow: 2px 1px #072e4a;
+	
+	
+}
+.subtitulo-index {
+	font-size: 35px;
+	color: #0e5487;
+	text-shadow: 2px 1px #072e4a;
+}
+.texto-imagenes{
+	font-size: 24px;
+}
+.staff{ 
+   color: #0e5487;
+	 font-size: 40px;
+	 text-shadow: 2px 1px #072e4a;
+	 
+	justify-content: center;
+	;
+}
 }
 /*mobile*/
-@media (max-width: 551px) { 
+@media (max-width: 551px) {
+/*uso bg solo para guiarme en los tamaños despues se quitan*/ 
 	body {
 		background-color: green;
 	}
@@ -124,6 +180,29 @@ header {
 footer {
 	font-size: small;
 }
+
+.titulo__principal{
+	color: #0e5487;
+	font-size: 35px;
+	text-shadow: 2px 1px #072e4a;
+	
+	
+}
+.subtitulo-index {
+	font-size: 30px;
+	color: #0e5487;
+	text-shadow: 2px 1px #072e4a;
+}
+.texto-imagenes{
+	font-size: 20px;
+}
+.staff{ 
+   color: #0e5487;
+	 font-size: 30px;
+	 text-shadow: 2px 1px #072e4a;
+	 
+	justify-content: center;
+	;
 }
  
 }
